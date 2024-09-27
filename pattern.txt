@@ -1,0 +1,6 @@
+
+
+1 - Recursos de rota ($_GET) kebab
+2 - Pasta Arquivos 
+3 - 
+4 - 
