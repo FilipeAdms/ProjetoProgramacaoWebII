@@ -1,6 +1,6 @@
 
 
-1 - Recursos de rota ($_GET) kebab
-2 - Pasta Arquivos 
-3 - 
-4 - 
+1 - Recursos de rota ($_GET) kebab-case PT-BR
+2 - Pasta e Arquivos arquivos PascalCase  Ing
+3 - Var e func camelCase ing
+4 - BD sanake_case

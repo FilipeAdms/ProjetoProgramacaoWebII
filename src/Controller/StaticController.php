@@ -5,7 +5,7 @@ class StaticController {
 	public function main(){
 
 		$page = $_Get['pagina'] ?? null;
-		                                                                                                                   
+
 		switch ($page) {
 	case 'entrar':
 		$this->login();

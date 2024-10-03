@@ -1,4 +1,73 @@
 :root{
-    --Variavel-Que-Eu-Quero: Valor;
+    --fundo-navbar: #4169E1;
+    --fundo-body: #191970;
+    --fundo-hover-nav: #3d23cf;
+    --default-text-color: rgb(255, 255, 255);
+    --fundo-input: #8a9fdd;
 
+}
+
+nav {
+    background-color: var(--fundo-navbar);
+    color: var(--default-text-color);
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    width: 100%;
+}
+body {
+    background-color: var(--fundo-body);
+}
+body nav ul li {
+    list-style-type: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+a, a:visited {
+    text-decoration: none;
+    color: var(--default-text-color);
+    font-size: 35px;
+}
+a:hover {
+    border-radius: 10px;
+    background-color: var(--fundo-hover-nav);
+}
+main{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 2rem;
+}
+
+main form input {
+    min-width: 100px;
+    min-height: 50px;
+    border-radius: 15px;
+    padding-left: 5px;
+    font-size: 25px;
+    background-color: var(--fundo-input);
+    color: var(--default-text-color);
+}
+input::placeholder {
+    color: var(--default-text-color);
+}
+
+button {
+    min-width: 150px;
+    min-height: 65px;
+    background-color: var(--fundo-navbar);
+    color: var(--default-text-color);
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bold;
 }
