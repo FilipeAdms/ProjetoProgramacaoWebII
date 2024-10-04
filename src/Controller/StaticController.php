@@ -4,7 +4,7 @@ class StaticController {
 
 	public function main(){
 
-		$page = $_Get['pagina'] ?? null;
+		$page = $_GET['pagina'] ?? null;
 
 		switch ($page) {
 	case 'entrar':

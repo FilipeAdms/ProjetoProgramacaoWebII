@@ -12,36 +12,37 @@
 <body>
     <nav>
         <ul>
-            <a href="/?pagina=entrar">
-                <li>
-                    Entrar
-                </li>
-            </a>
-            <a href="/?pagina=Inicio">
-                <li>Início</li>
-            </a>
-
-
-            <a href="/?pagina=registrar">
-                <li>
-                    Cadastrar-se
-                </li>
-            </a>
+            <li>
+                <a href="/?pagina=entrar">
+                    <div class="head-navbar-login">
+                        Entrar
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="/?pagina=inicio">
+                    <div class="head-navbar-home">
+                        Início
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="/?pagina=registrar">
+                    <div class="head-navbar-register">
+                        Cadastrar-se
+                    </div>
+                </a>
+            </li>
         </ul>
     </nav>
 
     <main>
-        <form>
-            <input type="text" name="usuario" id="usuario" placeholder="Usuário" required>
-        </form>
-        <form>
-            <input type="password" name="usuario" id="usuario" placeholder="Senha" required>
-        </form>
-        <form>
-            <input type="password" name="usuario" id="usuario" placeholder="Repetir Senha" required>
-        </form>
-        <form>
-            <input type="password" name="usuario" id="usuario" placeholder="E-mail" required>
+        <form action="/?pagina=usuario&acao=registrar" method="post">
+            <input type="password" name="password" id="password" placeholder="Senha" required>
+            <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Repetir Senha" required>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+            <input type="text" name="phone" id="email" placeholder="Telefone" required>
+            <input type="text" name="name" id="email" placeholder="Nome Completo" required>
         </form>
         <button>
             Registrar-se
